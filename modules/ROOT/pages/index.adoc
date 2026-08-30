@@ -59,18 +59,19 @@ ifeval::[{use-kroki} == 1]
 @startuml
 split
    -[hidden]->
-   #greenyellow:benchmark_config.json;
+   :benchmark_config.json; <<#greenyellow>>
 split again
    -[hidden]->
-   #beige:User.java;
+   :User.java; <<#beige>>
 split again
    -[hidden]->
-   #azure:tulip-runtime.jar;
+   :tulip-runtime.jar; <<#azure>>
 end split
 :EXECUTE;
-#greenyellow:benchmark_output.json;
-#cadetblue:benchmark_report.json;
-#cadetblue:benchmark_report.html;
+:benchmark_output.json; <<#greenyellow>>
+:benchmark_output.html; <<#greenyellow>>
+:benchmark_report.json; <<#cadetblue>>
+:benchmark_report.html; <<#cadetblue>>
 @enduml
 ----
 |===
