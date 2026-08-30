@@ -27,15 +27,10 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
-      - name: Extract Tool Versions
-        id: tool-versions
-        run: |
-          node_version=$(grep -F 'node' .mise.toml | cut -d '=' -f2 | xargs)
-          echo "node_version=${node_version}" >> "$GITHUB_OUTPUT"
       - name: Set up NodeJs
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: ${{ steps.tool-versions.outputs.node_version }}
+          node-version: '24'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
