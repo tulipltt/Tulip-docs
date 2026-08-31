@@ -15,6 +15,10 @@ Feb 9, 2026::
 
 === Releases
 
+August 20, 2026::
+
+* Tulip 2.3.5 released to Maven Central.
+
 Mar 12, 2026::
 
 * Tulip 2.3.0 released to new Maven Central location: https://mvnrepository.com/artifact/io.github.tulipltt/tulip-runtime
