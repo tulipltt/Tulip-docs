@@ -3,10 +3,10 @@
 	"version": "2.0",
 	"dependencies": {
 		"antora-shiki-extension": "^1.0.0",
-		"asciidoctor-kroki": "^0.18.1"
+		"asciidoctor-kroki": "^0.18.2"
 	},
 	"devDependencies": {
-		"@antora/cli": "3.2.0",
+		"@antora/cli": "3.2.2",
 		"@antora/lunr-extension": "1.0.0-alpha.13",
 		"@antora/site-generator": "3.2.0",
 		"@asciidoctor/tabs": "1.0.0-beta.6"
